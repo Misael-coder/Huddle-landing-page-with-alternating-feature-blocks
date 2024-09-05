@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+.header-container {
+  background: hsl(193, 100%, 96%);
+  background-image: url(./Assets/images/bg-hero-mobile.svg);
+  width: 100%;
+}
+.cont-barra {
+  margin: 0%;
+  padding: 0%;
+}
+.logo {
+  width: 30%;
+  max-width: 20%;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.button-Free {
+  background-color: white;
+  border: 0cap;
+  font-size: 70%;
+  border-radius: 15px;
+  padding: 7px 15px;
+  display: inline-flex;
+  float: right;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+.header-content {
+  display: inline-block;
+  text-align: center;
+}
+.title {
+  margin-top: 20%;
+  font-size: 0, 14rem;
+  font-weight: 650;
+}
+.parf {
+  font-size: small;
+  font-weight: 350;
+}
+.for-free {
+  background: hsl(322, 100%, 66%);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+  padding: 10px 35px;
+  margin: 30px 0px;
+}
+.illustration-mockups {
+  width: 80%;
+  max-width: 50%;
+  margin-bottom: 15px;
+}
+.backgraund {
+  width: 95%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px 0px;
+  margin: 35px 10px;
+}
+.illustration-backgraund {
+  margin-top: 15px;
+}
+.subtitle {
+  font-weight: 600;
+}
+.sub-parf {
+  font-size: small;
+  margin-bottom: 25px;
+  color: grey;
+}
+.container-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container {
+  margin-top: 100px;
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+}
+.logo-footer {
+  width: 150px;
+  margin-top: 10%;
+  filter: invert();
+}
+.footer-location {
+  font-size: small;
+  display: inline-block;
+}
+.footer-location {
+  margin-bottom: 20px;
+}
+.icon-location {
+  margin-bottom: 20px;
+}
+.footer-container-iphone {
+  display: inline-flex;
+  width: 100%;
+}
+.icon-phone {
+  height: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.footer-container-mail {
+  display: inline-flex;
+  width: 100%;
+}
+.icon-email {
+  height: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.illustration-backgraund {
+  width: 200px;
+}
+
+@media (min-width: 430px) {
+  .logo {
+    width: 15%;
+  }
+  .button-Free {
+    font-size: small;
+    margin-top: 20px;
+    padding: 9px 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  .header-container {
+    background-image: url(Assets/images/bg-hero-desktop.svg);
+    height: 620px;
+  }
+  .header-content {
+    display: flex;
+    margin-top: 10%;
+  }
+  .text {
+    width: 50%;
+    text-align: left;
+    margin-left: 10%;
+  }
+  .title {
+    margin-top: 5%;
+  }
+  .img-bsc {
+    width: 50%;
+  }
+  .illustration-uno {
+    float: right;
+    margin: 20px 10px;
+    margin-right: 10%;
+    width: 300px;
+  }
+  .illustration-dos {
+    float: left;
+    margin: 20px 10px;
+    margin-left: 10%;
+    width: 300px;
+  }
+  .subtitle {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 50px;
+    margin-bottom: 0%;
+  }
+  .sub-parf {
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 15%;
+  }
+  .sub-dos {
+    margin-left: 50%;
+  }
+  .sub-parf-dos {
+    margin-left: 50%;
+  }
+  .footer-container{
+    display: flex;
+  }
+  .componet-footer{
+    display: flex;
+  }
+  .componetn-uno{
+    padding-top: 50px;
+    margin-right:25px ;
+  }
+  .componet-dos{
+    padding-top: 50px;
+    margin-left: 25px;
+  }
+  .derechos-footer{
+    width: 50%;
+    padding-top: 15%;
+    font-size: smaller;
+  }
+  .derechos{
+    float: right;
+  }
+  .Contact{
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+} 
+@media (min-width:2045px) {
+  .header-container{
+    height: 1000px;
+  }
+  .text{
+    font-size: 2rem;
+  }
+  .parf{
+    font-size: 1.50rem;
+  }
+  .button-Free{
+    font-size: 2.2rem;
+    margin-top: 20px;
+    padding: 15px 35px;
+    border-radius: 30px;
+  }
+  .footer-container{
+    font-size: 1.5rem;
+  }
+}
+@media (min-width:420px) and (max-width:912px) {
+  .header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img-bsc{
+    width: 100%;
+  }
+  .illustration-mockups{
+    width: 250px;
+  }
+  .title{
+    font-size: 1.50rem;
+  }.text{
+    text-align: center;
+    margin-left: 0px;
+  }
+  .illustration-backgraund{
+    width: 200px;
+  }
+ 
+}
