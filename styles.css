@@ -125,7 +125,7 @@ body {
   width: 200px;
 }
 
-@media (min-width: 430px) {
+@media (min-width: 480px) {
   .logo {
     width: 15%;
   }
@@ -232,7 +232,7 @@ body {
     font-size: 1.5rem;
   }
 }
-@media (min-width:420px) and (max-width:912px) {
+@media (min-width:480px) and (max-width:912px) {
   .header-content{
     display: flex;
     flex-direction: column;
